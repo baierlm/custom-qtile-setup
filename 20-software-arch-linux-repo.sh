@@ -43,11 +43,18 @@ sudo pacman -S --noconfirm --needed libreoffice-fresh
 sudo pacman -S --noconfirm --needed libreoffice-fresh-de
 sudo pacman -S --noconfirm --needed libreoffice-fresh-en-gb
 sudo pacman -S --noconfirm --needed dropbox
+sudo pacman -S --noconfirm --needed anki
+sudo pacman -S --noconfirm --needed geogebra
 
 echo "Installing utilities"
 
 sudo pacman -S --noconfirm --needed dmenu
 sudo pacman -S --noconfirm --needed rofi
+sudo pacman -S --noconfirm --needed zathura
+sudo pacman -S --noconfirm --needed fzf
+sudo pacman -S --noconfirm --needed tmux
+sudo pacman -S --noconfirm --needed yank
+
 
 echo "Installing category System"
 
@@ -96,16 +103,18 @@ sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed wmctrl
 #hides mouse cursor
 sudo pacman -S --noconfirm --needed unclutter
-sudo pacman -S --noconfirm --needed xdg-user-dirs
+#sudo pacman -S --noconfirm --needed xdg-user-dirs
 #dialogs
 sudo pacman -S --noconfirm --needed zenity
 
 #File browser
 sudo pacman -S --noconfirm --needed ranger
+sudo pacman -S --noconfirm --needed catdoc 
+
 sudo pacman -S --noconfirm --needed nautilus
 
 # installation of zippers and unzippers
-sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  arj cabextract file-roller
+sudo pacman -S --noconfirm --needed atool
 
 echo "Installing pass"
 
