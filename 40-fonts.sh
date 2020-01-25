@@ -19,6 +19,7 @@ sudo pacman -S ttf-liberation --noconfirm --needed
 sudo pacman -S ttf-roboto --noconfirm --needed
 sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed
 sudo pacman -S tamsyn-font --noconfirm --needed
+yay -S nerd-fonts-dejavu-complete --noconfirm --needed
 [ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
 
 
