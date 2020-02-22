@@ -1,6 +1,6 @@
 #!/bin/bash
 ./00-use-all-cores.sh
-./10-display-manager.sh
+#./10-display-manager.sh
 ./11-sound.sh
 ./12-bluetooth.sh
 ./13-printers.sh

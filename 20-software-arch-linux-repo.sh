@@ -33,16 +33,16 @@ echo "Installing category Multimedia"
 
 sudo pacman -S --noconfirm --needed mpv
 sudo pacman -S --noconfirm --needed vlc
-sudo pacman -S --noconfirm --needed spotify 
-sudo pacman -S --noconfirm --needed spotifywm-git
+#sudo pacman -S --noconfirm  spotify 
+#sudo pacman -S --noconfirm  spotifywm-git
 
 echo "Installing category Office"
 
 sudo pacman -S --noconfirm --needed thunderbird
-sudo pacman -S --noconfirm --needed libreoffice-fresh
-sudo pacman -S --noconfirm --needed libreoffice-fresh-de
-sudo pacman -S --noconfirm --needed libreoffice-fresh-en-gb
-sudo pacman -S --noconfirm --needed dropbox
+sudo pacman -S  --needed libreoffice-fresh
+sudo pacman -S  --needed libreoffice-fresh-de
+sudo pacman -S  --needed libreoffice-fresh-en-gb
+#sudo pacman -S --noconfirm --needed dropbox
 sudo pacman -S --noconfirm --needed anki
 sudo pacman -S --noconfirm --needed geogebra
 
@@ -51,9 +51,10 @@ echo "Installing utilities"
 sudo pacman -S --noconfirm --needed dmenu
 sudo pacman -S --noconfirm --needed rofi
 sudo pacman -S --noconfirm --needed zathura
+sudo pacman -S --noconfirm --needed mupdf
 sudo pacman -S --noconfirm --needed fzf
 sudo pacman -S --noconfirm --needed tmux
-sudo pacman -S --noconfirm --needed yank
+#sudo pacman -S --noconfirm --needed yank
 
 
 echo "Installing category System"
@@ -69,8 +70,8 @@ sudo pacman -S --noconfirm --needed hardinfo
 sudo pacman -S --noconfirm --needed gparted
 
 sudo pacman -S --noconfirm --needed networkmanager
-sudo pacman -S --noconfirm --needed arc-gtk-theme
-sudo pacman -S --noconfirm --needed accountsservice
+#sudo pacman -S --noconfirm --needed arc-gtk-theme
+#sudo pacman -S --noconfirm --needed accountsservice
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode
@@ -78,7 +79,7 @@ sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed rsync
 sudo pacman -S --noconfirm --needed gtk-engine-murrine
 sudo pacman -S --noconfirm --needed gvfs gvfs-mtp
-sudo pacman -S --noconfirm --needed xrandr 
+#sudo pacman -S --noconfirm --needed xrandr 
 sudo pacman -S --noconfirm --needed arandr 
 sudo pacman -S --noconfirm --needed compton
 sudo pacman -S --noconfirm --needed feh
